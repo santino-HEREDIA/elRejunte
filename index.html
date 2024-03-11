@@ -2,19 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="trabajo 1" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Imágenes a los Lados</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .panel {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .panel img {
+            width: 150px; 
+            border: 1px solid black;
+            margin: 5px; 
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <div class="left-panel">
-            <img src="imagen1.jpg" alt="Imagen 1">
-            <img src="imagen2.jpg" alt="Imagen 2">
+        <div class="panel">
+            <img src="bocajr.gif" alt="Imagen 1">
+            <img src="riber.gif" alt="Imagen 2">
+            <img src="olimpia.png" alt="Imagen 3">
+            <img src="unnamed.png" alt="Imagen 4">
         </div>
-        <div class="right-panel">
-            <img src="imagen3.jpg" alt="Imagen 3">
-            <img src="imagen4.jpg" alt="Imagen 4">
+        <div class="panel">
+            <img src="4.jpg" alt="Imagen 5">
+            <img src="six.png" alt="Imagen 6">
+            <img src="1.webp" alt="Imagen 7">
+            <img src="3.svg" alt="Imagen 8">
         </div>
     </div>
     <script src="script.js"></script>
